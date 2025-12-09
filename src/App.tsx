@@ -3,6 +3,7 @@ import './App.css'
 import Home from './routes/Home'
 import Welcome from './routes/Home/Welcome'
 import NotFound from './routes/Home/NotFound'
+import About from './routes/Home/About'
 
 export default function App() {
 
@@ -13,6 +14,7 @@ export default function App() {
           <Route path='/' element={<Home />}>
             <Route index element={<Navigate to='/home' />} />
             <Route path='/home' element={<Welcome />} />
+            <Route path='/about' element={<About />} />
             <Route path='*' element={<NotFound />} />
           </Route>
         </Routes>
