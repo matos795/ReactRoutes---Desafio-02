@@ -47,3 +47,7 @@ main {
   font-size: 24px;
   font-weight: 700;
 }
+
+.drt-active {
+  font-weight: 700;
+}
