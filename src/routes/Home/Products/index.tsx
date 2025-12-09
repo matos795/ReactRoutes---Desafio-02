@@ -4,8 +4,10 @@ import Filter from "../../../components/Filter";
 export default function Products() {
     return(
         <>
-            <Filter />
-            <Outlet />
+            <main>
+                <Filter />
+                <Outlet />
+            </main>
         </>
     );
 }

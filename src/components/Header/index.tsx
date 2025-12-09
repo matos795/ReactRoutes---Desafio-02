@@ -8,7 +8,7 @@ export default function Header() {
             <nav className='drt-container drt-nav-items'>
                 <div className='drt-nav-items-left'>
                     <NavLink 
-                    className={({isActive}) => isActive ? 'drt-menu-item drt-active' : 'drt-menu-item'}
+                    className={({isActive}) => isActive ? 'drt-active' : ''}
                     to='/home'>
                         <div className='drt-menu-item'>Início</div>
                     </NavLink>
