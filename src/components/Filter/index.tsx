@@ -2,7 +2,7 @@ import './styles.css'
 
 export default function Filter() {
     return(
-        <div className='drt-container drt-filter'>
+        <div className='drt-container drt-filter drt-mb20'>
             <div className='drt-filter-items'>
                 <div className='drt-filter-item'>Computadores</div>
                 <div className='drt-filter-item'>Eletrônicos</div>
