@@ -1,0 +1,18 @@
+.drt-filter {
+    background-color: var(--bg-field-color);
+    height: 60px;
+    display: flex;
+    padding: 20px;
+}
+
+.drt-filter-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.drt-menu-item {
+    color: var(--font-field-color);
+    font-size: 16px;
+    font-weight: 400;
+}

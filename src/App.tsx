@@ -4,6 +4,7 @@ import Home from './routes/Home'
 import Welcome from './routes/Home/Welcome'
 import NotFound from './routes/Home/NotFound'
 import About from './routes/Home/About'
+import Products from './routes/Home/Products'
 
 export default function App() {
 
@@ -15,6 +16,9 @@ export default function App() {
             <Route index element={<Navigate to='/home' />} />
             <Route path='/home' element={<Welcome />} />
             <Route path='/about' element={<About />} />
+            <Route path='/products' element={<Products />}>
+
+            </Route>
             <Route path='*' element={<NotFound />} />
           </Route>
         </Routes>
