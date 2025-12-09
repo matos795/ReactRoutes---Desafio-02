@@ -1,0 +1,33 @@
+header {
+    background-color: var(--bg-header-color);
+    height: 70px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.drt-nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.drt-nav-items-left {
+    display: flex;
+    gap: 20px;
+}
+
+.drt-menu-item {
+    color: var(--font-header-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.drt-nav-items-right {
+    display: flex;
+}
+
+.drt-nav-items-right img {
+    width: 30px;
+    height: 30px;
+}

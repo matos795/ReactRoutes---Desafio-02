@@ -2,8 +2,8 @@
 
 :root {
 
-  --bg-header-collor: #2D28FF;
-  --font-header-collor: #FFFFFF;
+  --bg-header-color: #2D28FF;
+  --font-header-color: #FFFFFF;
 
   --bg-field-color: #C7C7C7;
   --font-field-color: #000000;
@@ -28,7 +28,7 @@ html, body {
     background-color: var(--bg-primary-color);
 }
 
-.rt-container {
+.drt-container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
@@ -36,4 +36,14 @@ html, body {
 
 main {
     padding: 0 20px;
+}
+
+.drt-mb20{
+  margin-bottom: 20px;
+}
+
+.drt-section-title {
+  color: var(--font-primary-color);
+  font-size: 24px;
+  font-weight: 700;
 }
